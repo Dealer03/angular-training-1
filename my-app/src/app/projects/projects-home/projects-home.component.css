@@ -67,7 +67,7 @@ span.capitalize::first-letter {
   transition: transform .4s ease,
               box-shadow .4s ease;
   font-family: "Cormorant Garamond", serif;
-  text-transform: capitalize;
+  text-transform: uppercase;
   box-sizing: inherit;
   font-size: 10.5px;
   letter-spacing: 1px;
@@ -157,14 +157,18 @@ span {
 /*
   style the form
 */
+fieldset {
+  height: 205px;
+}
 
 form {
     width: 40%;
+    height: 210px;
     font-family: Cormorant Garamond, serif;
     font-weight: 600;
     background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
     box-shadow: 0px 10px 10px rgba(0, 0, 0, .4);
-    margin: 8px auto;
+    margin: 10px auto;
   }
   
   .firstNameInput {
@@ -173,10 +177,19 @@ form {
   
   
   .lastNameInput {
-    margin: 1vw 4.5vw;
+    margin: 1vw 4.4vw;
   }
   
   
   .phoneNumberInput {
-    margin: 0 2.2vw;
+    margin: 0 2.3vw;
+  }
+
+  .jobTitleInput {
+    margin: 1vw 5.2vw
+  }
+
+
+  .emailInput {
+    margin: 0.3vw 6.4vw;
   }

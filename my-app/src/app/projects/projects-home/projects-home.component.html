@@ -8,15 +8,18 @@
             
             <label>Last Name</label><input class="lastNameInput" (input)="lastName=$any($event.target).value" /><br />
              
-            <label>Phone Number</label><input class="phoneNumberInput" (input)="phoneNumber=$any($event.target).value" />
-             
+            <label>Phone Number</label><input class="phoneNumberInput" (input)="phoneNumber=$any($event.target).value" /><br />
+            
+            <label>Job Title</label><input class="jobTitleInput" (input)="jobTitle=$any($event.target).value" /><br />
+            
+            <label>Email</label><input class="emailInput" (input)="email=$any($event.target).value" />     
         </fieldset>
     </form>
 
     <button class="card">
         <div class="row clearfix">
             <div class="left big">{{phoneNumber}}</div>
-            <div class="right"><p><span class="big">E</span>rnst & <span class="big">S</span>ohn</p><p><span class="med no-space">A W</span><span class="small no-space">iley </span><span class="med no-space">B</span><span class="small no-space">rand</span></p></div>
+            <div class="right"><p class="med">{{jobTitle}}</p><p class="small">{{jobSlogan}}</p></div>
         </div>
         <div class="row">
             <p class="capitalize">{{firstName}} <span class="capitalize">{{lastName}}</span></p>

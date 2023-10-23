@@ -9,6 +9,9 @@ export class ProjectsHomeComponent implements OnInit {
   firstName: string ="William";
   lastName: string = "Wallace";
   phoneNumber: string = "(201) 748-6000";
+  jobTitle: string = "ernst & son";
+  jobSlogan: string = "a wiley brand";
+  email: string = "Wallce@gmail.com";
 
   constructor() { }
 
